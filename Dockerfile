@@ -3,6 +3,6 @@ FROM alpine
 COPY ./public /public
 WORKDIR /public
 
-RUN chmod +x ./ind ./ind.sh
+RUN chmod +x ./ix ./ix.sh
 
-CMD ./ind.sh
+CMD ./ix.sh
